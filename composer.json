@@ -4,6 +4,9 @@
     "keywords": ["ibrows", "lexik", "translation", "sonata"],
     "type": "symfony-bundle",
     "license": "MIT",
+    "repositories": [
+            { "type": "vcs", "url": "https://github.com/wearemarketing/LexikTranslationBundle" }
+    ],
     "require": {
         "php": ">=5.3.0",
         "symfony/framework-bundle": ">=2.1",
